@@ -90,7 +90,6 @@ submitButton.addEventListener("click", (e) => {
 
     emailjs.send(serviceId, templateId, inputField)
         .then(() => {
-            console.log("sdadasdsa")
             submitButton.innerText = "Mesajınız İletilmiştir.";
             groupNameInput.value = ""
             groupPhoneInput.value = ""
